@@ -1,4 +1,4 @@
-# Heißer Draht – Miniprojekt
+# Heißer Draht - Miniprojekt
 ## Projektbeschreibung
 In diesem Miniprojekt wird ein einfacher Heißer Draht gebaut. Das Ziel des Spiels ist es, eine Metallschlaufe entlang eines gebogenen Drahtes zu führen, ohne ihn zu berühren. Sobald die Schlaufe den Draht berührt, wird ein Stromkreis geschlossen und ein Summer gibt ein akustisches Signal aus.
 
@@ -7,8 +7,12 @@ In diesem Miniprojekt wird ein einfacher Heißer Draht gebaut. Das Ziel des Spie
 * Passender Batteriehalter
 * Summer
 * langer Metalldraht für die Strecke
-* Holz oder Pappe als Griff
+* Holz oder Pappe als Griff für die Schlaufe
+* Grove Kabel, bei dem auf einer Seite der Stecker abgeschnitten ist
 * Kabel zum Verbinden der Bauteile
+* LED und passenden Vorwiderstand
+
+![alt Übersicht der Bauteile](bauteile.jpg)
 
 ## Funktionsweise
 Der Parcour besteht aus einem gebogenen Metalldraht. Eine bewegliche Schlaufe wird daran entlanggeführt.
@@ -16,6 +20,9 @@ Der Parcour besteht aus einem gebogenen Metalldraht. Eine bewegliche Schlaufe wi
 Berührt die Schlaufe den Draht, entsteht ein geschlossener Stromkreis. Dadurch wird der Summer mit Strom versorgt und beginnt zu piepen. Solange keine Berührung stattfindet, bleibt der Stromkreis offen und der Summer bleibt aus.
 
 ## Aufbau
+
+![alt Aufbau](aufbau.png)
+Quelle: https://www.kreativekiste.de/component/content/article?id=74:heissen-draht-bauen
 
 Bastele aus Draht einen Parcour, welcher zu durchlaufen ist. Du kannst deiner Kreativität freien Lauf lassen. Löte ein Kabel an den Draht an.
 
