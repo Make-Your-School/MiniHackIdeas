@@ -32,6 +32,7 @@ Die Lenkung erfolgt über die gezielte Aktivierung der Motoren:
   ---
 
 ## Ausblick: Automatisierung mit Calliope mini
+![Illustration von https://mint-unt.de/mobil-mit-calliope/](https://github.com/Make-Your-School/MiniHackIdeas/blob/main/MakeYourCar/Mobil-13.jpg)
 1. Verbinde die Motoren mit der Motortreiber-Leiste des Calliope mini. Motor 1: Schließe die Kabel an den Pin **GND** und den Anschluss **A** an. Motor 2: Schließe die Kabel an den Pin **GND** und den Anschluss **B** an.
 2. Um den Motoren genügend Kraft zu geben, wird ein 9V-Block als zusätzliche Energiequelle benötigt: Verbinde den **Pluspol** (rotes Kabel) der Batterie mit dem Pin **Vin**. Verbinde den **Minuspol** (schwarzes Kabel) der Batterie mit einem freien **GND**-Pin.
 3. Verwende für den Calliope mini die 3V-Batteriebox: Stecke den weißen, verpolungssicheren Stecker der Batteriebox in die vorgesehene Buchse auf dem Calliope. **Hinweis:** Der Stecker passt aufgrund seiner Form nur in einer Richtung – bitte keine Gewalt anwenden.
