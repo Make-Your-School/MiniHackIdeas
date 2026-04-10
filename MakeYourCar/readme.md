@@ -41,4 +41,5 @@ Die Lenkung erfolgt über die gezielte Aktivierung der Motoren:
 2.  Übertrage die Datei per USB auf deinen Calliope.
 3.  Positioniere das Fahrzeug an der Startlinie.
 4.  Drücke den programmierten Knopf (z. B. Taste A), um die Fahrt zu starten.
+5.  
  ![Illustration von https://mint-unt.de/mobil-mit-calliope/](https://github.com/Make-Your-School/MiniHackIdeas/blob/main/MakeYourCar/makecode-editor9.jpg)
