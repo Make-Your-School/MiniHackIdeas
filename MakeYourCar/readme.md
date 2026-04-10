@@ -14,7 +14,7 @@ Diese Anleitung beschreibt den Aufbau eines einfachen, zweirädrigen Fahrzeugs, 
 
 ## 2. Montage 
 1. **Antrieb montieren:** Befestige die beiden Getriebemotoren samt Rädern an einem Ende des Sperrholzbrettchens.
-2. **Gleichgewicht herstellen:** * Schneide einen Tischtennisball in zwei Hälften. Klebe eine Hälfte mit Heißkleber auf die Unterseite des anderen Brettchen-Endes. Dies sorgt dafür, dass das Fahrzeug waagerecht steht und über den Boden gleiten kann.
+2. **Gleichgewicht herstellen:** Schneide einen Tischtennisball in zwei Hälften. Klebe eine Hälfte mit Heißkleber auf die Unterseite des anderen Brettchen-Endes. Dies sorgt dafür, dass das Fahrzeug waagerecht steht und über den Boden gleiten kann.
 3. **Verkabelung:** Das Fahrzeug wird über zwei separate Stromkreise gesteuert. Verbinde jeden Motor über einen eigenen **Taster** mit der Batterie. **Funktionsweise:** Tastendruck: Stromkreis geschlossen (Motor läuft). Loslassen: Stromkreis unterbrochen (Motor steht).
 
 ![Illustration von https://mint-unt.de/mobil-mit-calliope/](https://github.com/Make-Your-School/MiniHackIdeas/blob/main/MakeYourCar/Mobil-6.jpg)
