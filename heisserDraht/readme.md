@@ -1,24 +1,18 @@
 # Heißer Draht - Miniprojekt
+
 ## Projektbeschreibung
-In diesem Miniprojekt wird ein einfacher Heißer Draht gebaut. Das Ziel des Spiels ist es, eine Metallschlaufe entlang eines gebogenen Drahtes zu führen, ohne ihn zu berühren. Sobald die Schlaufe den Draht berührt, wird ein Stromkreis geschlossen und ein Summer gibt ein akustisches Signal aus.
+In diesem Miniprojekt wird ein einfacher Heißer Draht gebaut. Das Ziel des Geschicklichkeitsspiels ist es, eine Metallschlaufe von einem Ende eines gebogenen Drahtes bis zum anderen zu führen, ohne ihn zu berühren. Sobald die Schlaufe den Draht berührt, wird ein Stromkreis geschlossen und ein Summer gibt ein akustisches Signal aus.
 
 ## Benötigte Materialien
-* 2 Batterien 1,5V
+* 2 Batterien 1,5V (o.ä.)
 * Passender Batteriehalter
-* Summer
-* langer Metalldraht für die Strecke
-* Holz oder Pappe als Griff für die Schlaufe
-* Grove Kabel, bei dem auf einer Seite der Stecker abgeschnitten ist
-* Kabel zum Verbinden der Bauteile
-* LED und passenden Vorwiderstand
+* Summer (Materialkoffer Nr. 45)
+* langer, dicker Metalldraht für die Parkour-Strecke und den Handgriff/Drahtschlaufe
+* Pappdeckel o.ä. als Basis/Gehäuse
+* Grove Kabel
+* Kabel/Litze zum Verbinden der Bauteile
 * Lüsterklemme/Wagoklemme oder andere Verbinder
-
-![alt Übersicht der Bauteile](bauteile.jpg)
-
-## Funktionsweise
-Der Parcour besteht aus einem gebogenen Metalldraht. Eine bewegliche Schlaufe wird daran entlanggeführt.
-
-Berührt die Schlaufe den Draht, entsteht ein geschlossener Stromkreis. Dadurch wird der Summer mit Strom versorgt und beginnt zu piepen. Solange keine Berührung stattfindet, bleibt der Stromkreis offen und der Summer bleibt aus.
+* Klebeband
 
 ## Aufbau
 
@@ -26,18 +20,23 @@ Berührt die Schlaufe den Draht, entsteht ein geschlossener Stromkreis. Dadurch 
 
 Quelle: https://www.kreativekiste.de/component/content/article?id=74:heissen-draht-bauen
 
-Bastele aus Draht einen Parcour, welcher zu durchlaufen ist. Du kannst deiner Kreativität freien Lauf lassen. Löte ein Kabel an den Draht an.
+Bastele aus einem kurzen Stück Draht eine Schlaufe. Damit die Drahtschlaufe besser anzufassen ist, kannst du aus Pappe einen Griff basteln. An der Schlaufe lötest du hinten ein Kabel an.
 
-Bastele dann einen Griff, an dem vorne eine Schlaufe befestigt ist. Hier muss ebenfalls ein Kabel angelötet werden.
+Biege aus einem langen Stück Draht einen Parkour, welcher zu durchlaufen ist. Du kannst deiner Kreativität freien Lauf lassen. Löte ebenfalls ein Kabel an den Draht an. 
+Befestige den Draht-Parkour auf einem Gehäuse (Pappdeckel o.ä.). 
+Klebe am Anfang und am Ende des Drahtes 1-2cm mit Klebeband ab. Dadurch markieren wir Start und Ziel. 
 
-Verbinde dann den Pluspol des Batteriehalters mit Kabel am heißen Draht-Parcour und das Kabel der Schlaufe mit dem Vin-Pin (Rot) und dem Signal-Pin (Gelb) des Summers. Du Kannst dafür eine Lüsterklemme oder Wagoklemme nutzen.
+Verkabelung: Du Kannst für die Verkabelung eine Lüsterklemme oder Wagoklemme nutzen und ggf. Jumper-Kabel.
+* Pluspol Batteriehalter  --> Kabel am heißen Draht
+* Minuspol Batteriehalter --> GND-Pin (Schwarz) des Summers
+* Kabel der Drahtschlaufe --> Vin-Pin (Rot) und Signal-Pin (Gelb) des Summers
 
-Verbinde dann den Minuspol des Batteriehalters mit dem GND-Pin (Schwarz) des Summers.
-
-Suche dir dann einen passenden Vorwiderstand für die LED und verbinde ihn mit der Anode (langes Beinchen) der LED. Dann verbindest du den Vorwiderstand mit dem Pluspol des Batteriehalters. Anschließend verbindest du die Kathode (kurzes Beinchen) der LED mit dem Minuspol des Batteriehalters.
-
-Lege dann die Batterien in den Batteriehalter ein und schon bist du fertig!
-
-Wenn die Schlaufe den Draht berührt, wird der Stromkreis geschlossen und der Summer ertönt.
+Batterien einlegen und fertig! 
 
 Du kannst natürlich jederzeit die Schwierigkeit deines Parcours erhöhen, indem du den heißen Draht anders formst.
+
+## Erweiterungen
+* LED: Für laute Umgebungen ist eine LED gut, welche gleichzeitig zu dem Summer reagiert. Hierfür brauchst du nur eine LED mit passendem Vorwiderstand. Das kurze Beinchen kommt an Batterie-Minus. Das lange Beinchen mit Vorwiderstand wird an die Drahtschlaufe angeschlossen. 
+* Ein-/Ausschalter
+* Bewegte Hindernisse: Du kannst bspw. rotierende Hindernisse hinzufügen, welche über einen Motor angetrieben werden (s. Link zur Kreativkiste)
+* Stoppuhr + Fehlerzähler: Du kannst den Hack auch über einen Microcontroller realisieren. Dann lassen sich automatisch Fehler mitzählen und die Zeit stoppen. Das erhöht den Aufwand und die Kosten aber deutlich.
